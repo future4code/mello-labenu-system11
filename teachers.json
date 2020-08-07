@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Oswaldo",
+    "id": 1,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  }
+]

@@ -1,16 +1,17 @@
 import User from "./User";
 import { FileManager } from "./FileManager";
+import moment from 'moment'
 
 export default class Student implements User {
   public id: number
   constructor(
-   private hobbies: string[],
-   public birthday: string,
-   public email: string,
-   public name: string,
+    public name: string,
+    public email: string,
+    public birthday: string,
+    private hobbies: string[],
+    private fileManager: FileManager,
   ) {
     try {
-      const fileManager = new FileManager('./students.json')
       const allStudents: Student[] = fileManager.readFile()
       this.id = allStudents.length + 1
   

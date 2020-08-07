@@ -14,13 +14,13 @@ export enum SPECIALTY {
 export class Teacher implements User {
   public id: number
   constructor(
-    private specialties: SPECIALTY[],
-    public birthday: string,
+    public name: string,
     public email: string,
-    public name: string
+    public birthday: string,
+    private specialties: SPECIALTY[],
+    private fileManager: FileManager
   ) {
     try {
-      const fileManager = new FileManager("./teachers.json")
       const allTeachers: Teacher[] = fileManager.readFile()
       this.id = allTeachers.length + 1
   
