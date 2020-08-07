@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mello-na-night",
+    "id": 1,
+    "startDate": "16/04/2020",
+    "endDate": "16/10/2020",
+    "teachers": [],
+    "students": [],
+    "currentModule": 2
+  },
+  {
+    "name": "Mello-na-night",
+    "id": 2,
+    "startDate": "16/04/2020",
+    "endDate": "16/10/2020",
+    "teachers": [],
+    "students": [],
+    "currentModule": 2
+  },
+  {
+    "name": "Mello-na-night",
+    "id": 3,
+    "startDate": "16/04/2020",
+    "endDate": "16/10/2020",
+    "teachers": [],
+    "students": [],
+    "currentModule": 2
+  },
+  {
+    "name": "Mello",
+    "id": 4,
+    "startDate": "16/04/2020",
+    "endDate": "16/10/2020",
+    "teachers": [],
+    "students": [],
+    "currentModule": 2
+  }
+]
