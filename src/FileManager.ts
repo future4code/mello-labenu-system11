@@ -8,11 +8,15 @@ export class FileManager {
   }
 
   public writeFile(data: any): void {
-    fs.writeFileSync(this.filePath, JSON.stringify(data));
+    fs.writeFileSync(this.filePath, JSON.stringify(data, null, 2));
   }
 
   public readFile(): any {
-    const data = fs.readFileSync(this.filePath);
-    return JSON.parse(data.toString());
+    try {
+      const data = fs.readFileSync(this.filePath);
+      return JSON.parse(data.toString());
+    } catch (error) {
+      return []
+    }
   }
 }
