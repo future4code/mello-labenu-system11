@@ -1,8 +1,7 @@
 import User from "./User";
 import { FileManager } from './FileManager'
-import { setFlagsFromString } from "v8";
 
-enum SPECIALTY {
+export enum SPECIALTY {
   REACT = 'REACT',
   REDUX = 'REDUX',
   CSS = 'CSS',
@@ -12,18 +11,33 @@ enum SPECIALTY {
   BACKEND = 'BACKEND'
 }
 
-export default class Teacher implements User {
+export class Teacher implements User {
+  public id: number
   constructor(
-    private speacialty: SPECIALTY[],
+    private specialties: SPECIALTY[],
     public birthday: string,
     public email: string,
-    public id: number,
     public name: string
   ) {
-    const fileManagerTeacher = new FileManager("../teachers.json")
-    fileManagerTeacher.writeFile(Teacher)
+    try {
+      const fileManager = new FileManager("./teachers.json")
+      const allTeachers: Teacher[] = fileManager.readFile()
+      this.id = allTeachers.length + 1
+  
+      const newTeacher = {
+        name: this.name,
+        id: this.id,
+        email: this.email,
+        birthday: this.birthday,
+        specialties: this.specialties,
+      }
+      fileManager.writeFile([...allTeachers, newTeacher])
+      console.log('Professor(a) ' + newTeacher.name + ' criado(a) com sucesso')
+    } catch (error) {
+      throw new Error('erro ao criar novo professor')
+    }
   }
   public getSpecialties() {
-    return this.speacialty
+    return this.specialties
   }
 }
