@@ -1,27 +1,28 @@
 import { Mission } from "./Mission";
+import { FileManager } from "./FileManager";
 
 export class FullTimeMission extends Mission {
-  constructor(
-    id: number | undefined,
-    name: string,
-    startDate: string,
-    endDate: string,
-    teachers: string[],
-    students: string[],
-    module: string
-  ) {
-    super(id, name, startDate, endDate, teachers, students, module);
+  public createFullTimeMission(mission: FullTimeMission): void {
+    try {
+      const fileManager = new FileManager("./missions.json");
+      const allMissions: Mission[] = fileManager.readFile();
+
+      this.id = allMissions.length + 1;
+
+      const newMission = {
+        name: this.name,
+        id: this.id,
+        startDate: this.startDate,
+        endDate: this.endDate,
+        teachers: this.teachers,
+        students: this.students,
+        currentModule: this.currentModule,
+      };
+
+      fileManager.writeFile([...allMissions, newMission]);
+      console.log("Missão", newMission.name, "criada com sucesso!");
+    } catch (error) {
+      console.log(error);
+    }
   }
 }
-
-const mission = new FullTimeMission(
-  123,
-  "Carlos",
-  "25/12/1923",
-  "25/12/1993",
-  [],
-  [],
-  "Alou"
-);
-
-mission.getStudents()
