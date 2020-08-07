@@ -1,43 +1,54 @@
 import moment from "moment";
+import { Teacher } from "./Teacher";
+import Student from "./Student";
 
 import { FileManager } from "./FileManager";
 
 export abstract class Mission {
+  
   constructor(
-    protected id: number | undefined,
-    protected name: string,
+    protected name: string = "",
+    protected id: number,
     protected startDate: string,
     protected endDate: string,
-    protected teachers: string[],
-    protected students: string[],
-    protected module: string
+    protected teachers: Teacher[] = [],
+    protected students: Student[] = [],
+    protected currentModule: number | undefined
   ) {}
 
-  getStudents(): string[] {
+  getStudents(): Student[] {
     const students = new FileManager("students.json").readFile();
     console.log(students);
     return students;
   }
 
-  getTeachers(): string[] {
+  getStartDate(): string {
+    return this.startDate;
+  }
+
+  getEndDate(): string {
+    return this.endDate;
+  }
+
+  getCurrentModule(): number | undefined {
+    return this.currentModule;
+  }
+
+  getTeachers(): Teacher[] | Teacher {
     return this.teachers;
   }
 
-  setStudents(newStudent: string): string[] {
+  addStudents(newStudent: Student): Student[] | Student {
     this.students.push(newStudent);
     return this.students;
   }
 
-  setTeachers(newTeacher: string): string[] {
+  addTeachers(newTeacher: Teacher): Teacher[] {
     this.teachers.push(newTeacher);
     return this.teachers;
   }
 
-  //   createNewMission(shift: string, information: string[]): {
-  //       if (shift === "night") {
-  //         cria missão de noite
-  //       } else {
-  //           cria missão de tarde
-  //       }
-  //   };
+  setName(name: string): void {
+    this.name = name;
+  }
 }
