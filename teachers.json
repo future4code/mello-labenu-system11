@@ -1,2 +1,409 @@
 [
+  {
+    "name": "Oswaldo",
+    "id": 1,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 2,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 3,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 4,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 5,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 6,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 7,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 8,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 9,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 10,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 11,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 12,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 13,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 14,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 15,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 16,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 17,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 18,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 19,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 20,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 21,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 22,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 23,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 24,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 25,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 26,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 27,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 28,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 29,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 30,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 31,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 32,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 33,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 34,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 35,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 36,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  },
+  {
+    "name": "Oswaldo",
+    "id": 37,
+    "email": "teacher@hotmail.com",
+    "birthday": "30/10/1993",
+    "specialties": [
+      "REACT",
+      "PROGRAMACAO_ORIENTADA_A_OBJETOS",
+      "REDUX"
+    ]
+  }
 ]

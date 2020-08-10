@@ -4,31 +4,45 @@
     "id": 1,
     "startDate": "16/04/2020",
     "endDate": "16/10/2020",
-    "teachers": [],
-    "students": [],
+    "teachers": [
+      {
+        "name": "Oswaldo",
+        "email": "teacher@hotmail.com",
+        "birthday": "30/10/1993",
+        "specialties": ["REACT", "PROGRAMACAO_ORIENTADA_A_OBJETOS", "REDUX"],
+        "fileManager": {
+          "filePath": "./teachers.json"
+        },
+        "id": 29
+      },
+      {
+        "name": "Oswaldo",
+        "email": "teacher@hotmail.com",
+        "birthday": "30/10/1993",
+        "specialties": ["REACT", "PROGRAMACAO_ORIENTADA_A_OBJETOS", "REDUX"],
+        "fileManager": {
+          "filePath": "./teachers.json"
+        },
+        "id": 30
+      }
+    ],
+    "students": [
+      {
+        "name": "Lucas",
+        "email": "student1@gmail.com",
+        "birthday": "25/02/2001",
+        "hobbies": ["voar", "ler"],
+        "fileManager": {
+          "filePath": "./students.json"
+        },
+        "id": 60
+      }
+    ],
     "currentModule": 2
   },
   {
     "name": "Mello-na-night",
     "id": 2,
-    "startDate": "16/04/2020",
-    "endDate": "16/10/2020",
-    "teachers": [],
-    "students": [],
-    "currentModule": 2
-  },
-  {
-    "name": "Mello-na-night",
-    "id": 3,
-    "startDate": "16/04/2020",
-    "endDate": "16/10/2020",
-    "teachers": [],
-    "students": [],
-    "currentModule": 2
-  },
-  {
-    "name": "Mello",
-    "id": 4,
     "startDate": "16/04/2020",
     "endDate": "16/10/2020",
     "teachers": [],

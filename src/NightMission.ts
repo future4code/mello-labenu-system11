@@ -25,7 +25,7 @@ export class NightMission extends Mission {
       this.id = allMissions.length + 1;
 
       const newMission = {
-        name: this.name + "na-night",
+        name: this.name + "-na-night",
         id: this.id,
         startDate: this.startDate,
         endDate: this.endDate,

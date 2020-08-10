@@ -5,7 +5,6 @@ import Student from "./Student";
 import { FileManager } from "./FileManager";
 
 export abstract class Mission {
-  
   constructor(
     protected name: string = "",
     protected id: number,
@@ -38,17 +37,70 @@ export abstract class Mission {
     return this.teachers;
   }
 
-  addStudents(newStudent: Student): Student[] | Student {
-    this.students.push(newStudent);
-    return this.students;
+  addStudents(newStudent: Student, missionId: number): void {
+    try {
+      const fileManager = new FileManager("./missions.json");
+      const allMissions: Mission[] = fileManager.readFile();
+      const singleMission: Mission | undefined = allMissions.find(
+        (mission: Mission) => mission.id === missionId
+      );
+      if (singleMission !== undefined) {
+        singleMission.students.push(newStudent);
+        fileManager.writeFile(allMissions);
+        console.log(
+          "Estudante",
+          newStudent.name,
+          "adicionado com sucesso à turma",
+          singleMission.name,
+          "identificação",
+          singleMission.id
+        );
+      }
+    } catch (error) {}
   }
 
-  addTeachers(newTeacher: Teacher): Teacher[] {
-    this.teachers.push(newTeacher);
-    return this.teachers;
+  addTeachers(newTeacher: Teacher, missionId: number): void {
+    try {
+      const fileManager = new FileManager("./missions.json");
+      const allMissions: Mission[] = fileManager.readFile();
+
+      const singleMission: Mission | undefined = allMissions.find(
+        (mission: Mission) => mission.id === missionId
+      );
+
+      if (singleMission !== undefined) {
+        singleMission.teachers.push(newTeacher);
+        fileManager.writeFile(allMissions);
+        console.log(
+          "Professor",
+          newTeacher.name,
+          "adicionado com sucesso à turma",
+          singleMission.name,
+          "identificação",
+          singleMission.id
+        );
+      }
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   setName(name: string): void {
     this.name = name;
   }
+
+  // findMission(missionId: number): Mission | undefined {
+  //   try {
+  //     const fileManager = new FileManager("./missions.json");
+  //     const allMissions: Mission[] = fileManager.readFile();
+
+  //     const singleMission: Mission | undefined = allMissions.find(
+  //       (mission: Mission) => mission.id === missionId
+  //     );
+  //     return singleMission;
+  //   } catch (error) {
+  //     console.log("Não foi encontrada a missão com o id", missionId);
+  //   }
+  //   return undefined
+  // }
 }
